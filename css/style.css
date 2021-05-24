@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+  /* /---- Modal ----/  */
+
+.modal-title i {
+  margin-right: 10px;
+
+}
+
+
+/* letras nosotros */
+
+
+/* <!-- ---- Categorias ----/ --> */
+
+
+.listcat{
+    list-style: none;
+    
+}
+
+.listcat a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.listcat a:hover{
+    transition: 0.8s;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2,
+    0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
+    0 0 80px #00fff2, 0 0 90px #00fff2;
+}
+
+.accordion-item i{
+    margin: 10px !important;
+}
+
+/* /---- div RGB detras de Cards ----/ */
+
+
+.box {
+    margin-bottom: 30px;
+    margin-left: -20;
+    position: relative;
+    background: #2c2426
+    
+  }
+
+  .box:before,
+  .box:after {
+    content: "";
+    top: -2px;
+    left: -2px;
+    position: absolute;
+    background: linear-gradient(45deg,#ff0037,#ff00f2,#f84983,#fffb00,
+    #9dff00,#fba300,#ff6600,#ff3c00,#3348ff,#ae00ff );
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: glow 20s linear infinite;
+  }
+
+/* /---- Expande mas el brillo RGB Card ----/ */
+
+  .box:after {
+    filter: blur(10px);
+  }
+
+
+/* /---- Publicidad ----/ */
+
+
+  .img-fluid {
+      box-shadow: 3px 3px 8px 3px #00fff2;
+  }
+
+
+
+/* /---- Footer ----/ */
+
+
+
+  footer{
+    background-color: #292c30;
+    color: white;
+    
+    
+  }
+
+
+  footer i{
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+  }
+
+  footer a{
+    text-decoration: none;
+  }
+
+
+  /* /----- Redes icon ----/ */
+
+
+  footer a:hover #faceicon{
+    transition: 0.8s;
+    text-shadow: 0 0 10px #305fbd, 0 0 20px #305fbd, 0 0 30px #305fbd,
+    0 0 40px #305fbd, 0 0 50px #305fbd, 0 0 60px #305fbd, 0 0 70px #305fbd,
+    0 0 80px #305fbd, 0 0 90px #305fbd;
+  }
+
+  footer a:hover #twittericon{
+    transition: 0.8s;
+    text-shadow: 0 0 10px #00acee, 0 0 20px #00acee, 0 0 30px #00acee,
+    0 0 40px #00acee, 0 0 50px #00acee, 0 0 60px #00acee, 0 0 70px #00acee,
+    0 0 80px #00acee, 0 0 90px #00acee;
+  }
+
+  footer a:hover #youtubeicon{
+    transition: 0.8s;
+    text-shadow: 0 0 10px #c4302b, 0 0 20px #c4302b, 0 0 30px #c4302b,
+    0 0 40px #c4302b, 0 0 50px #c4302b, 0 0 60px #c4302b, 0 0 70px #c4302b,
+    0 0 80px #c4302b, 0 0 90px #c4302b;
+  }
+
+  footer a:hover #igicon{
+    transition: 0.8s;
+    text-shadow: 0 0 10px #ff8303, 0 0 20px #ff8303, 0 0 30px #ff8303,
+    0 0 40px #ff8303, 0 0 50px #ff8303, 0 0 60px #ff8303, 0 0 70px #ff8303,
+    0 0 80px #ff8303, 0 0 90px #ff8303;
+  }
+
+
+/* / ---- Comentarios User ---- / */
+
+#comentarios-user {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#boton-enviar a{
+  text-decoration: none;
+}
+
+#reacciones img{
+  width: 30px;
+  transition: .5s;
+}
+
+/* / ---- Animacion Comentarios User ---- / */
+
+
+#reacciones img:hover{
+  width: 38px;
+  transform: rotate(360deg);
+  
+}
+
+#comentarios-user a{
+ float: right;
+}
+
+
+/* ---- Enzo Molina ---- */
+/* GALERIA DE IMAGENES */
+
+
+
+.card-body-01{
+  margin: 1rem;
+  height: 21rem;
+}
+
+
+
+  #neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px rgba(0,178,255,1),
+      0 0 10px rgba(0,178,255,1),
+      0 0 20px rgba(0,178,255,1),
+      0 0 40px rgba(38,104,127,1),
+      0 0 80px rgba(38,104,127,1),
+      0 0 90px rgba(38,104,127,1),
+      0 0 100px rgba(38,104,127,1),
+      0 0 140px rgba(38,104,127,1),
+      0 0 180px rgba(38,104,127,1);
+  }
+
+
+
+
+
+
+/*------- SECCION LOG-IN ------- */
+
+#colorB {
+  color: black;
+  font-size: 1.1rem;
+}
+
+#colorW {
+  color: #f3f4ed;
+}
+
+.bg-login {
+  background-color: #f3f4ed
+  ;
+  
+}
+
+.btn-danger2 {
+  color: #fff;
+  background-color: #a70000d0;
+  /* border-color: #00fff2; */
+}
+.btn-danger2:hover {
+  color: #fff;
+  transition: 0.8s;
+  text-shadow: 0 0 10px #ff5353, 0 0 20px #ff5353, 0 0 30px #ff5353,
+  0 0 40px #ff5353, 0 0 50px #ff5353, 0 0 60px #ff5353, 0 0 70px #ff5353,
+  0 0 80px #ff5353, 0 0 90px #ff5353;
+}
+
+
+#imglogin{
+  margin-top: -60px;
+}
+
+
+/* nosotros */
+/* al titulo se le dio un mt-2*/
+
+
+#nosotros{
+  padding: 20px;
+}
+
+
+
+
+
+/* /---- Animacion de Div RGB Cards ----/ */
+
+
+  @keyframes glow {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+
+
+/* ---- Enzo Molina ---- */
+/* GALERIA DE IMAGENES */
+
+
+
+  @media screen and (max-width: 740px){
+    .card-body-01{
+      height: 10rem;
+  }
+  }

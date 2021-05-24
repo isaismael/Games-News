@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="author" content="Ismael Isa, Enzo Molina, Santiago Frascarolo, Camila Carrizo">
+  <meta name="description" content="Proyecto final del primer sprint, Videojuegos">
+  <meta name="keywords" content="informacion de nosotros">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="icon" href="/images/icono-de-neón-la-palanca-mando-púrpura-vector-118679443.jpg" type="image/png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/assets/images/icon/icon.png" type="image/png">
+</head>
+
+
+<body>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <i class="fas fa-gamepad"></i>GamesNews</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/gallery/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/contacto/contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/nosotros/nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+          <a href="/pages/login/login.html" class="btn btn-outline-success" type="submit"><i class="fas fa-sign-in-alt"></i>Login</a>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"><i
+              class="fas fa-user-plus"></i>Suscribe</button>
+        </div>
+    </nav>
+  </header>
+
+  <!-- /---- Modal ----/ -->
+
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="far fa-address-card"></i>Registrate</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label class="form-label required">Nick Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label class="form-label required">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1">PassWord</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" required>
+              <small id="emailHelp" class="form-text text-muted">Minimo 8 caracteres Alfanumericos.
+              </small>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Deseo recibir notificaciones por e-mail</label>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- NOSOTROS -->
+
+  <section  class="container-fluid my-4">
+    <section class="container mt-5">
+
+
+      <div  class="row-justify center-text">
+        <div class="col-sm-12">
+          <div class="box">
+            <article>
+              <div class="card box">
+                <div id="g-s">
+
+                  <h3 class="text-center display-4 mt-2" style="color: rgb(255, 255, 255);">¿Quiénes Somos?</h3>
+                  <hr>
+                  <div class="col-sm-12 ">
+                    <div id="nosotros" class="my-4 text-light">
+                      <p style="color: rgb(255, 250, 250)">
+                        GamesNews nace en Abril de 2018. Junto con un equipo de profesionales , todos amantes
+                        del mundo de los videojuegos.
+                        <span class="font-weight-bold">Ismael Isa,Camila Carrizo,Enzo Molina y Santiago
+                          Frascarolo</span> te acompañaran a través de este maravilloso espacio,creado para compartir
+                        todo
+                        sobre videojuegos y generar una comunidad interactiva
+                      </p>
+                      <br>
+                      <p class="text-justify" style="color: rgb(248, 245, 245);">Santiago se encarga de recolectar toda
+                        la información importante plasmarla en GamesNews ,en la sección de novedades.Es un excelente
+                        miembro del equipo debido a su responsabilidad y entusiasmo. Enzo, por otro lado es una persona
+                        muy extrovertida,empática y capaz de interactuar con los miembros de la comunidad cada vez que
+                        surge una duda, o un comentario ,por lo que siempre esta revisando nuestras redes sociales.
+                        Ismael, es una persona clave en todos los ámbitos. Participa en las redes sociales, responde
+                        dudas, investiga cada día sobre las nuevas tendencias y se asegura de que la información sea
+                        correcta. Es muy conocido por sus capacidades de liderazgo y respetado como tal.Y por último, yo
+                        Camila ,me considero una apasionada de GamesNews y los videojuegos.Es divertido participar,como
+                        una aficionada más.Me encargo de la parte visual para que sea estéticamente agradable para
+                        todos. ¡Y me encanta mi trabajo! </p><br>
+                      <p class="text-justify" style="color: white;"> La idea de esta empresa surgió gracias a un grupo
+                        de amigos de la facultad. Desde hace tiempo anhelábamos formar parte de una comunidad que brinde
+                        toda la informació necesaria a los aficionados como nosotros. Y terminamos dedicándonos a
+                        construir un espacio entretenido y a informar con el trabajo en equipo sobre lo valioso que es
+                        hacer lo que más amas para poder disfrutar de tu trabajo cada día. Acá vas a encontrar todo
+                        relaciones con lo gaming, soundtracks, series, peliculas, animes y mas!
+                        Esperamos que lo disfruten mucho de nuestro blog y se mantengan informados.
+                      </p>
+                    </div>
+                  </div>
+    </section>
+    <div class="text-center p-5 ">
+      <h3 style="color: white;"> Una frase que caracteriza a nuestro equipo: </h3>
+      <h2 style="color: white;">"Trabajar en equipo,divide el trabajo y multiplica los resultados"</h2>
+    </div>
+    <article class="container">
+
+      <div class="row justify-content-around my-5">
+        <div class="col-sm-12 col-md-3 text-center"><img class="shadow rounded-circle"
+            src="/assets/images/nosotros/foto cami.jpg" width="158px" alt="Camila">
+          <h2 class style="color: rgb(194, 11, 164);" mt-3>Camila Carrizo</h2>
+          <p style="color: rgb(194, 11, 164);">Encargada de parte visual de GamesNews</p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center">
+          <img class="shadow rounded-circle" src="/assets/images/nosotros/Santiago fracarolo.jpeg" width="160px"
+            alt="Santiago">
+          <h2 class style="color: rgb(40, 247, 40);" mt-3>Santiago Frascarolo </h2>
+          <p style="color: rgb(16, 212, 65);">Recolector y emisor de la información</p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center">
+          <img class="shadow rounded-circle" src="/assets/images/nosotros/enzo.jpg" width="150px" alt="Enzo">
+          <h2 class style="color: rgb(165, 228, 18);" mt-3>Enzo Molina</h2>
+          <p style="color: rgb(238, 234, 23);">Coordinador de redes sociales</p>
+        </div>
+        <div class="col-sm-12 col-md-3 text-center">
+          <img class="shadow rounded-circle" src="/assets/images/nosotros/Ismael.jpg" width="150px" alt="Ismael">
+          <h2 class style="color: rgb(248, 153, 10);" mt-3> Ismael Isa</h2>
+          <p style="color: rgb(212, 121, 46);">Coordinador de asuntos generales y lider</p>
+        </div>
+    </article>
+    <div>
+    </div>
+  </section>
+  </div>
+  </section>
+  </main>
+  <!-- footer -->
+  <footer class="pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Content -->
+          <h5 class="text-uppercase mb-3">GamesNews</h5>
+          <p>Un blog creado por y para fans de los videojuegos y el mundo Geek</p>
+          <p>Acá vas a encontrar todo relaciones con lo gaming, soundtracks, series, pelicuas, animas y mas!
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Contact details -->
+          <h5 class="text-uppercase">Contactos</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fas fa-home mr-3"></i>San Miguel de Tucumán, Cordoba N° 589, Argentina
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> gamesnews@gmail.com
+              </p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+              </p>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-4 text-center mx-auto my-4">
+
+          <!-- Social buttons -->
+          <h5 class="text-uppercase mb-4">Seguinos en:</h5>
+
+          <!-- Facebook -->
+          <a href="/pages/error404/error404.html" type="button" class="">
+            <i id="faceicon" class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Twitter -->
+          <a href="/pages/error404/error404.html" type="button" class="">
+            <i id="twittericon" class="fab fa-twitter"></i>
+          </a>
+          <!-- youtube ---->
+          <a href="/pages/error404/error404.html" type="button" class="">
+            <i id="youtubeicon" class="fab fa-youtube"></i>
+          </a>
+          <!-- Dribbble -->
+          <a href="/pages/error404/error404.html" type="button" class="">
+            <i id="igicon" class="fab fa-instagram"></i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="text-center py-3">© 2021 Copyright: GamesNews
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
