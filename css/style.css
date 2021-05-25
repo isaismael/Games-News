@@ -59,8 +59,8 @@ body{
     
   }
 
-  .box:before,
-  .box:after {
+  .box::before,
+  .box::after {
     content: "";
     top: -2px;
     left: -2px;
@@ -76,7 +76,8 @@ body{
 
 /* /---- Expande mas el brillo RGB Card ----/ */
 
-  .box:after {
+
+  .box::after {
     filter: blur(10px);
   }
 

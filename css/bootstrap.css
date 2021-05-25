@@ -2197,9 +2197,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #86b7fe;
+  border-color: #00fff2;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: #00fff2;
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -4017,15 +4017,21 @@ textarea.form-control-lg {
 }
 .navbar-toggler:hover {
   text-decoration: none;
+  text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2,
+  0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
+  0 0 80px #00fff2, 0 0 90px #00fff2;
 }
-.navbar-toggler:focus {
+/* .navbar-toggler:focus {
   transition: 0.8s;
   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2,
   0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2,
   0 0 80px #00fff2, 0 0 90px #00fff2;
   
   
-}
+} */
+
+
+
 
 .navbar-toggler-icon {
   display: inline-block;
