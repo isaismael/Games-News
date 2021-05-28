@@ -256,7 +256,6 @@ body{
 
 
 
-
 /* /---- Animacion de Div RGB Cards ----/ */
 
 
@@ -281,6 +280,7 @@ body{
 
   @media screen and (max-width: 740px){
     .card-body-01{
-      height: 10rem;
+      height: 13rem;
   }
+  
   }
